@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,600;1,300&family=Teko:wght@700&display=swap');
+
+
+body{
+    margin: 8px 0;
+        background-color: #E9E4CD;
+        color: #124734;
+}
+h1 {
+    font-family: 'Teko' , sans-serif;   
+}
+h2 {
+    font-family: 'Montserrat Semibold' , sans-serif;
+    font-size: large;
+}
+h3 {
+    font-family: 'Montserrat Light italic' , sans-serif;
+    font-size: small;
+}
+p {
+    font-family: 'Montserrat Light 300' , sans-serif;
+    color: #124734;
+}
+button {
+    font-family: 'Montserrat Semibold' , sans-serif;
+    color: #124734;
+    background-color: #EC872B;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+button:hover {
+    cursor: pointer;
+}
+footer {
+    padding-left: 40px;
+}
+img {
+    border-radius: 10px;
+}
+a {
+    text-decoration: none;
+    color: #124734;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;  
+    border: none;
+}
+.flex-container-bg {
+    display: flex;
+    width: 100%;  
+    border: none;
+    background-color: #90C49D;
+}
+
+
+.profilelogo {
+    width: 60px;
+    border-radius: 50%;
+    float: left;
+}
+.nav {
+    overflow: hidden;
+    background-color: #E9E4CD;
+    padding: auto;
+    width: auto;
+    padding-left: 40px;
+}
+.nav a {
+    text-align: center;
+    color: #124734;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-family: 'Teko' , sans-serif;
+    font-size: large;
+    float: left;
+}
+.nav a:hover {
+    text-decoration: underline;
+}
+.pintro {
+    padding: 40px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: large;
+}
+.homebanner {
+    width: 100%;
+    border-radius: 10px;
+}
+.introimg {
+    width: 100%;
+    border-radius: 50%;
+    float: left;
+    padding: 40px;
+}
+.introbutton {
+    margin-left: 40px;
+    
+}
+.leermekennen {
+    width: 33%;
+    background-color: #90C49D;
+    
+}
+.leermekennen img {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    
+    
+}
+.leermekennen button {
+    margin: auto;
+    margin-bottom: 1em;
+}
+.homecontact {
+    margin: 40px;
+}
+
+
+.cvh1 {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.cvskills {
+    padding-left: 40px;
+}
+.cvskillsbg {
+    background-color: #90C49D;
+}
+
+
+.p-ervaring {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.p-ervaring-r {
+    margin-right: 40px;
+    margin-left: 40px;
+    text-align: right;
+}
+
+
+#form {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #45ACA8;
+    padding: 40px;
+    border-radius: 10px;
+    color: #124734;
+}
+
+#form div {
+    padding-top: 10px;
+}
+
+#form input {
+    float: right;   
+    border-color: #F5B31F; 
+}
+
+#form textarea {
+    border-color: #F5B31F;
+    resize: vertical;
+    font-family: 'Montserrat Light 300' , sans-serif;
+}
+
+#form label {
+    font-family: 'Montserrat Semibold' , sans-serif;
+    color: #124734;
+}
+
+#form input {
+    font-family: 'Montserrat Light italic' , sans-serif;
+    color: #124734;
+    
+    
+}
+
+#input-bg {
+    background-color: #E9E4CD;
+}
+
+#submit {
+    background-color: #F5B31F;
+    border-radius: 5px;
+    color: #124734;
+}
+#submit:hover {
+    cursor: pointer;
+}
